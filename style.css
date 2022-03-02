@@ -1,0 +1,100 @@
+ * {
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ p {
+     font-size: 20px;
+ }
+ 
+ a:link,
+ a:visited,
+ a:active,
+ a:hover,
+ a {
+     text-decoration: none;
+     color: black;
+     cursor: pointer;
+ }
+ 
+ a>img:hover {
+     cursor: pointer;
+ }
+ 
+ .pages {
+     height: 100vh;
+     padding: 80px;
+ }
+ 
+ .navBar {
+     padding: 5px;
+     background-color: rgb(241, 235, 222);
+     width: 100%;
+     display: block;
+     position: fixed;
+ }
+ 
+ .navBar>nav {
+     top: 15px;
+     left: 15px;
+     display: flex;
+     justify-content: left;
+     text-align: center;
+     font-weight: bolder;
+ }
+ 
+ .navBar>nav>div {
+     font-size: 20px;
+     padding: 0px 15px 0px 15px;
+ }
+ 
+ .main {
+     background-color: rgb(4, 199, 199);
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .mainLeft {
+     padding: 15px;
+ }
+ 
+ .profilePhoto {
+     width: 300px;
+     border-radius: 8px;
+ }
+ 
+ .mainRight {
+     margin-left: 40px;
+     padding-left: 30px;
+     text-align: center;
+ }
+ 
+ .mainRight>p {
+     font-size: 20px;
+ }
+ 
+ .about {
+     background-color: rgb(3, 175, 175);
+ }
+ 
+ .works {
+     background-color: rgb(3, 126, 126);
+ }
+ 
+ .contact {
+     padding-top: 60px;
+     background-color: rgb(8, 97, 97);
+ }
+ 
+ .contact>div {
+     text-align: center;
+ }
+ 
+ .contact img {
+     width: 50px;
+ }
+ 
+ .contact img:hover {
+     transition: 0.5s;
+     width: 60px;
+ }
