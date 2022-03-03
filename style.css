@@ -3,6 +3,10 @@
      margin: 0px;
  }
  
+ body {
+     /* background-image: linear-gradient(to bottom right, rgb(4, 212, 212), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(8, 97, 97)); */
+ }
+ 
  p {
      font-size: 20px;
  }
@@ -28,7 +32,8 @@
  
  .navBar {
      padding: 5px;
-     background-color: rgb(241, 235, 222);
+     /* background-color: rgb(241, 235, 222); */
+     background-image: linear-gradient(to right, rgb(4, 212, 212), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(8, 97, 97));
      width: 100%;
      display: block;
      position: fixed;
@@ -49,7 +54,8 @@
  }
  
  .main {
-     background-color: rgb(4, 199, 199);
+     /* background-color: rgb(4, 199, 199); */
+     background-image: linear-gradient(to bottom right, rgb(2, 231, 231), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(3, 80, 80));
      display: flex;
      justify-content: space-around;
  }
@@ -74,16 +80,19 @@
  }
  
  .about {
-     background-color: rgb(3, 175, 175);
+     /* background-color: rgb(3, 175, 175); */
+     background-image: linear-gradient(to top right, rgb(2, 231, 231), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(3, 80, 80));
  }
  
  .works {
-     background-color: rgb(3, 126, 126);
+     /* background-color: rgb(3, 126, 126); */
+     background-image: linear-gradient(to bottom right, rgb(2, 231, 231), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(3, 80, 80));
  }
  
  .contact {
      padding-top: 60px;
-     background-color: rgb(8, 97, 97);
+     /* background-color: rgb(8, 97, 97); */
+     background-image: linear-gradient(to top right, rgb(2, 231, 231), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(3, 80, 80));
  }
  
  .contact>div {
