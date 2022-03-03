@@ -4,11 +4,25 @@
  }
  
  body {
-     /* background-image: linear-gradient(to bottom right, rgb(4, 212, 212), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(8, 97, 97)); */
+     background-image: linear-gradient(to bottom right, rgb(2, 231, 231), rgb(8, 190, 190), rgb(7, 160, 160), rgb(10, 134, 134), rgb(3, 80, 80));
+     font-family: "dahlia-m";
  }
  
  p {
      font-size: 20px;
+ }
+ 
+ .about,
+ .contact,
+ .works {
+     display: flex;
+     justify-content: end;
+ }
+ 
+ .aboutRight,
+ .contactRight,
+ .worksRight {
+     width: 50%;
  }
  
  a:link,
@@ -61,11 +75,13 @@
  }
  
  .mainLeft {
-     padding: 15px;
+     padding-top: 15px;
+     width: 40%;
  }
  
  .profilePhoto {
-     width: 300px;
+     position: fixed;
+     width: 30%;
      border-radius: 8px;
  }
  
@@ -73,6 +89,13 @@
      margin-left: 40px;
      padding-left: 30px;
      text-align: center;
+     width: 50%;
+     padding-top: 13%;
+ }
+ 
+ .mainRight>h1,
+ h2 {
+     font-family: "dahlia-b";
  }
  
  .mainRight>p {
