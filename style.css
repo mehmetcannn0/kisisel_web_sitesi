@@ -14,14 +14,16 @@
  
  .about,
  .contact,
- .works {
+ .works,
+ .formContact {
      display: flex;
      justify-content: end;
  }
  
  .aboutRight,
  .contactRight,
- .worksRight {
+ .worksRight,
+ .formContactRight {
      width: 50%;
  }
  
@@ -41,7 +43,7 @@
  
  .pages {
      height: 100vh;
-     padding: 80px;
+     padding: 10%;
  }
  
  .navBar {
@@ -129,4 +131,10 @@
  .contact img:hover {
      transition: 0.5s;
      width: 60px;
+ }
+ 
+ .formContact {
+     display: flex;
+     text-align: center;
+     justify-content: center;
  }
