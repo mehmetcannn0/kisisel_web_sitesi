@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'dahlia-r';
+    src: url(./46_12787_dahlia-regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'dahlia-b';
+    src: url(./50_80689_dahlia-bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'dahlia-m';
+    src: url(./48_23801_dahlia-medium.woff) format("woff");
+}
