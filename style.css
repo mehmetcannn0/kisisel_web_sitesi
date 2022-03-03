@@ -24,7 +24,7 @@
  .contactRight,
  .worksRight,
  .formContactRight {
-     width: 50%;
+     width: 40%;
  }
  
  a:link,
@@ -88,8 +88,7 @@
  }
  
  .mainRight {
-     margin-left: 5%;
-     padding-left: 5%;
+     padding-left: 10%;
      text-align: center;
      width: 50%;
      padding-top: 13%;
