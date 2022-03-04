@@ -18,11 +18,21 @@
 <body>
     <div class="navBar">
         <nav>
-            <div><a href="#main"> Ana Sayfa </a></div>
-            <div><a href="#about"> Hakkımda </a></div>
-            <div><a href="#works"> Çalışmalar/ Yeteneklerim </a></div>
-            <div><a href="#contact"> İletişim </a></div>
-            <div><a href="#formContact"> İletişim Formu</a></div>
+            <a href="#main">
+                <div> Ana Sayfa </div>
+            </a>
+            <a href="#about">
+                <div> Hakkımda </div>
+            </a>
+            <a href="#works">
+                <div> Çalışmalar/ Yeteneklerim </div>
+            </a>
+            <a href="#contact">
+                <div> İletişim </div>
+            </a>
+            <a href="#formContact">
+                <div> İletişim Formu </div>
+            </a>
 
         </nav>
     </div>
@@ -103,18 +113,22 @@
 
 
                             <tr>
-                                <td><input type="text" name="ad" placeholder="Ad,Soyad yazınız" required></td>
-                                <td rowspan="4"><textarea name="mesaj" cols="19" rows="4" placeholder="Mesaj yazınız" required></textarea></td>
+                                <td><input type="text" name="ad" placeholder="Ad,Soyad yazınız" required style="width: 200px;"></td>
+
                             </tr>
 
                             <tr>
-                                <td><input type="email" name="eposta" placeholder="Eposta yazınız" required></td>
+                                <td><input type="email" name="eposta" placeholder="Eposta yazınız" required style="width: 200px;"></td>
                             </tr>
 
                             <tr>
-                                <td><input type="text" name="konu" placeholder="Konuyazınız"></td>
+                                <td><input type="text" name="konu" placeholder="Konuyazınız" style="width: 200px;"></td>
 
                             </tr>
+                            <tr>
+                                <td><textarea name="mesaj" cols="19" rows="4" placeholder="Mesaj yazınız" required style="width: 200px;"></textarea></td>
+                            </tr>
+                            <br>
                             <tr>
                                 <td style="text-align: center;"><input type="submit"> <input type="reset"></td>
                             </tr>
