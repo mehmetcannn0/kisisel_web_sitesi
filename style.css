@@ -20,6 +20,7 @@
      justify-content: end;
  }
  
+ .mainRight,
  .aboutRight,
  .contactRight,
  .worksRight,
@@ -53,6 +54,7 @@
      width: 100%;
      display: block;
      position: fixed;
+     z-index: 1000;
  }
  
  .navBar>nav {
@@ -96,7 +98,6 @@
  .mainRight {
      padding-left: 1%;
      text-align: center;
-     width: 50%;
      padding-top: 13%;
  }
  
@@ -160,4 +161,33 @@
  
  .formContactRight {
      margin-top: 9%;
+ }
+ 
+ @media screen and (max-width: 870px) {
+     .mainRight,
+     .aboutRight,
+     .contactRight,
+     .worksRight,
+     .formContactRight {
+         width: 90%;
+     }
+     .main .about,
+     .contact,
+     .works,
+     .formContact {
+         text-align: center;
+         justify-content: center;
+         display: flex;
+     }
+     .mainLeft {
+         margin-top: 10%;
+         padding-top: 0%;
+         width: 100%;
+     }
+     .profilePhoto {
+         position: relative;
+         width: 65%;
+         border-radius: 8px;
+         z-index: 100;
+     }
  }
