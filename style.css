@@ -44,7 +44,7 @@
  
  .pages {
      /* height: 100vh; */
-     padding: 5% 5%;
+     padding: 9% 5%;
  }
  
  .navBar {
@@ -60,7 +60,6 @@
  
  .navBar>nav {
      top: 15px;
-     left: 15px;
      display: flex;
      justify-content: center;
      text-align: center;
@@ -194,6 +193,16 @@
          position: relative;
          width: 65%;
          border-radius: 8px;
-         z-index: 100;
+         z-index: 1;
+     }
+     .navBar {
+         width: 100%;
+         z-index: 2;
+     }
+     .navBar>nav {
+         width: 100%;
+         display: block;
+         background-color: white;
+         justify-content: center;
      }
  }
