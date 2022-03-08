@@ -168,6 +168,123 @@
      margin-bottom: 24%;
  }
  
+ @media (max-width: 575.98px) {
+     .mainRight,
+     .aboutRight,
+     .contactRight,
+     .worksRight,
+     .formContactRight {
+         width: 90%;
+     }
+     .main .about,
+     .contact,
+     .works,
+     .formContact {
+         text-align: center;
+         justify-content: center;
+         display: flex;
+     }
+     .mainLeft {
+         margin-top: 10%;
+         padding-top: 0%;
+         width: 100%;
+     }
+     .profilePhoto {
+         position: relative;
+         width: 65%;
+         border-radius: 8px;
+         z-index: 1;
+     }
+     .navBar {
+         width: 100%;
+         z-index: 2;
+     }
+     .navBar>nav {
+         width: 100%;
+         display: block;
+         background-color: white;
+         justify-content: center;
+     }
+ }
+ 
+ @media (max-width: 767.98px) {
+     .mainRight,
+     .aboutRight,
+     .contactRight,
+     .worksRight,
+     .formContactRight {
+         width: 90%;
+     }
+     .main .about,
+     .contact,
+     .works,
+     .formContact {
+         text-align: center;
+         justify-content: center;
+         display: flex;
+     }
+     .mainLeft {
+         margin-top: 10%;
+         padding-top: 0%;
+         width: 100%;
+     }
+     .profilePhoto {
+         position: relative;
+         width: 65%;
+         border-radius: 8px;
+         z-index: 1;
+     }
+     .navBar {
+         width: 100%;
+         z-index: 2;
+     }
+     .navBar>nav {
+         width: 100%;
+         display: block;
+         background-color: white;
+         justify-content: center;
+     }
+ }
+ 
+ @media (max-width: 991.98px) {
+     .mainRight,
+     .aboutRight,
+     .contactRight,
+     .worksRight,
+     .formContactRight {
+         width: 90%;
+     }
+     .main .about,
+     .contact,
+     .works,
+     .formContact {
+         text-align: center;
+         justify-content: center;
+         display: flex;
+     }
+     .mainLeft {
+         margin-top: 10%;
+         padding-top: 0%;
+         width: 100%;
+     }
+     .profilePhoto {
+         position: relative;
+         width: 65%;
+         border-radius: 8px;
+         z-index: 1;
+     }
+     .navBar {
+         width: 100%;
+         z-index: 2;
+     }
+     .navBar>nav {
+         width: 100%;
+         display: block;
+         background-color: white;
+         justify-content: center;
+     }
+ }
+ 
  @media screen and (max-width: 870px) {
      .mainRight,
      .aboutRight,
