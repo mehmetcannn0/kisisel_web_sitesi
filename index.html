@@ -13,31 +13,37 @@
         integrity="sha512-w7sMEM5yzmuVP9ic9zpCLk/+whwrrhkH5g83x0wi5DEPo1y+/JniMmCVfbtjw5JipFpcCb4gyF2xLES6tc+TxA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
 
 </head>
 
 <body>
-    <div class="navBar">
+    <div class="navBar" style="display:none;z-index:100 ; width: 100%; " id="mySidebar">
         <nav>
-            <a href="#main">
+            <a href="#main" onclick="closeNav()">
                 <div> Ana Sayfa </div>
             </a>
-            <a href="#about">
+            <a href="#about" onclick="closeNav()">
                 <div> Hakkımda </div>
             </a>
-            <a href="#works">
+            <a href="#works" onclick="closeNav()">
                 <div> Çalışmalar/ Yeteneklerim </div>
             </a>
-            <a href="#contact">
+            <a href="#contact" onclick="closeNav()">
                 <div> İletişim </div>
             </a>
-            <a href="#formContact">
+            <a href="#formContact" onclick="closeNav()">
                 <div> İletişim Formu </div>
             </a>
 
+
         </nav>
     </div>
+    <span style="width:auto;right:35px; position: fixed; padding:8px 18px; font-size: 16px;font-weight: bolder;background-color: white;" id="menu" onclick="openNav()">Menü</span>
+
+
 
 
     <div class="main pages" id="main">
@@ -173,6 +179,8 @@
         </div>
 
     </div>
+    <script src="script.js"></script>
+
 
 
 
